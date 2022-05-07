@@ -1,0 +1,66 @@
+import json
+Q1= """ What does this function do?len():
+  a)Number of items in array
+  b)Index of the value withen the array"""
+Q2=""" What does this function do?max():
+      a)The maximum number
+      b)The minimum number"""
+Q3="""What does this function do?min():
+a)The maximum number
+b)The minimum number"""
+Q4="""What does this function do?sum():
+a)Adds an object to the array
+b)sum of numbers"""
+Q5="""What does this function do?index():
+a)Index of the value withen the array
+b)Number of items in array"""
+Q6="""What does this function do?reverse():
+a)Index of the value withen the array
+b)Reflects the elements of the array"""
+Q7="""What does this function do?clear():
+a)Completly delets the array elements
+b)Adds an object to the array"""
+Q8="""What does this function do?del():
+a)Completly delets the array elements
+b)Delete the last element of the array"""
+Q9="""What does this function do?insert():
+a)Adds a word to the array index
+b)Adds an object to the array"""
+Q10="""What does this function do?append():
+a)Adds a word to the array index
+b)Adds an object to the array """
+Q11="""What does this function do?upper():
+a)all characters are capital letters
+b)all characters are lowercase"""
+Q12="""What does this function do?lower():
+a)all characters are capital letters
+b)all characters are lowercase"""
+Q13="""What does this function do?count():
+a)all characters are lowercase
+b)count the number of times a character is repeated"""
+Q14="""What does this function do?capitlize():
+a)The first letter in capital
+b)all characters are capital letters"""
+Q15="""What does this function do?title():
+a)each character after the space is capitalized
+b)all characters are capital letters"""
+Q16="""What does this function do?rstrip():
+a)Delete the spaces from the end of str
+b)all characters are lowercase"""
+Q17="""What does this function do?extend():
+a)all characters are lowercase
+b)adds more than object """
+Q18="""What does this function do?split():
+a)convert to list
+b)convert to string"""
+Q19="""What does this function do?join():
+a)convert to list
+b)convert to string"""
+Q20="""What does this function do?remove():
+a)Delete the first apperance
+b)Delete the spaces from the end of str"""          
+       
+Questions = {Q1:'a',Q2:'a',Q3:'b',Q4:'b',Q5:'a',Q6:'b',Q7:'a',Q8:'b',Q9:'a',Q10:'b',Q11:'a',Q12:'b',Q13:'b',Q14:'a',Q15:'a',Q16:'a',Q17:'b',Q18:'a',Q19:'b',Q20:'a'}
+Q = json.dumps(Questions)
+with open ("Q.json","w")as f:
+    f.write(Q)
